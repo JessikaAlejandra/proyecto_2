@@ -162,7 +162,7 @@ li.menu-item a.active,
     }
 
 .iconos li {
-    padding: 20px;
+    padding: 16px;
     width: 100%;
 }
   
@@ -212,8 +212,12 @@ footer {
         
     };
 
-    .iconos {
-        width: 560px;
+    .iconos li {
+  
+        width: 169px;
+        height: 169px;
+        overflow: hidden;
+
 
 
 

@@ -28,7 +28,7 @@ main {
 /*Estilos generales*/
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #fbfbfb;
+    background-color: #f7f5f5;
     color: #0f0f0f;
     font-size: 18px;
     line-height: 1.2;
@@ -64,6 +64,8 @@ header{
     top: 0;
     left: 0;
     background-color: #fbfbfb;
+    color:#5E17EB;
+    font-weight: bolder;
 }
 
 .logo {
@@ -132,11 +134,16 @@ section {
     color: #f5f0f0;
     font-weight: bolder;
 }
-li.menu-item:hover,
-li.menu-item a.active,
+
 .btn-cv:hover {
-    background-color: #998cb5;
-    transition: 0.4s;
+    background-color: #7d7195;
+    transition: background-color 0.3s;
+}
+
+a.active:hover {
+    background-color: #7d7195;
+    transition: background-color 0.3s
+
 }
 
 /*section 2*/
@@ -150,23 +157,20 @@ li.menu-item a.active,
 }
 
 .iconos {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 0px;
-    margin-bottom: 68px;
+    padding: 16px;
+ 
 
-    }
+}
 
 .iconos li {
-    padding: 16px;
-    width: 100%;
-}
-  
-
+    padding: 16px ;
+ }
 
 /* Footer */
 
